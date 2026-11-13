@@ -8,3 +8,7 @@ __pycache__/
 *.pyc
 data/
 cours_et_ressources/
+Screenshots/
+images/privates/
+account.csv
+VenvBriefS92/
