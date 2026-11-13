@@ -3,7 +3,12 @@
 import pandas as pd                              # Manipulation et lecture de données tabulaires (CSV, DataFrame)
 from pathlib import Path                         # Gestion propre des chemins de fichiers indépendamment du dossier d'exécution
 import streamlit as st                           # Création de l'interface web interactive
+import plotly.express as px                          
 from streamlit_option_menu import option_menu    # Composant tiers pour afficher un menu de navigation stylisé avec icônes
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
 
 #config affichage
 st.set_page_config(layout="wide")
