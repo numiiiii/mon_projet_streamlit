@@ -98,10 +98,11 @@ else:
 
     # 2. Contenu principal affiché selon le choix effectué dans le menu latéral
     if selected_page == "Accueil":
-        st.title("Page d'Accueil Réservée")
+        st.title(" Dashboard Analyse du flux de passager en avion ")
+        st.write("Page d'Accueil Réservée")
         st.write("Ce contenu est uniquement accessible aux utilisateurs authentifiés.")
     # Data sur les avions
-        st.title(" Dashboard Analyse ")
+        
 
         #charger le fichier
         df_flights= load_data(url)
