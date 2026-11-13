@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu    # Composant tiers pour afficher
 #config affichage
 st.set_page_config(layout="wide")
 #Fonction pour charger le fichier CSS externe
-st.html(Path(__file__).parent / "styletaxis.css")
+st.html(Path(__file__).parent / "style.css")
 
 url ="https://raw.githubusercontent.com/mwaskom/seaborn-data/master/flights.csv"
 
